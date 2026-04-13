@@ -1,0 +1,41 @@
+/* 1. The Basics: Setting the mood */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Clean, minimalist font */
+  background-color: #f1f0ed;    /* That soft Rhode-style cream color */
+  color: #161616;               /* Dark gray/black for text */
+}
+
+/* 2. The Layout: Centering the content */
+.page-width {
+  max-width: 1200px;
+  margin: 0 auto;               /* This centers the box on the screen */
+  padding: 40px 20px;           /* Gives the content some breathing room */
+  text-align: center;
+}
+
+/* 3. The Hero Title */
+.shopify-title {
+  font-size: 48px;
+  text-transform: lowercase;    /* The 'rhode' aesthetic is often lowercase */
+  letter-spacing: -1px;         /* Tightens the letters for a high-end look */
+  margin-bottom: 10px;
+}
+
+/* 4. The Button: Turning a link into a real button */
+.shopify-button {
+  display: inline-block;
+  background-color: #161616;
+  color: #ffffff;
+  padding: 15px 40px;
+  text-decoration: none;        /* Removes the blue underline */
+  border-radius: 50px;          /* Makes the button perfectly rounded */
+  font-weight: bold;
+  margin-top: 20px;
+  transition: opacity 0.3s;     /* Makes the hover effect smooth */
+}
+
+.shopify-button:hover {
+  opacity: 0.8;                 /* Fades slightly when you hover over it */
+}
